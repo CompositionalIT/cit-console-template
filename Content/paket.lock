@@ -1,0 +1,7 @@
+STORAGE: NONE
+RESTRICTION: == net8.0
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FSharp.Core (8.0.100)
+    FsToolkit.ErrorHandling (4.14)
+      FSharp.Core (>= 7.0.300)
