@@ -2,10 +2,14 @@
 An opinionated F# Console application template.
 
 ## Features
+
+### Configuration
 * `global.json` pinned to .NET 8
-* VS Code settings to hide inlay hints by default
+* **VS Code** settings to hide inlay hints by default
 * `.gitignore` with common F# settings
 * Standard `src/<app>` folder structure
+
+### Pre-installed dotnet tools
 * **Fantomas v6** pre-configured with `.editorconfig`
 * **Paket v8** with the following dependencies:
     * FSharp.Core
