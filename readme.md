@@ -1,5 +1,5 @@
-# CIT Console Template
-An opinionated F# Console application template.
+# CIT F# Application Template
+An opinionated F# application template.
 
 ## Features
 
@@ -14,6 +14,9 @@ An opinionated F# Console application template.
 * **Paket v8** with the following dependencies:
     * FSharp.Core
     * FSToolkit.ErrorHandling
+
+### Console App
+* Comes with a single standard console application
 
 ## To install locally
 ```bash
