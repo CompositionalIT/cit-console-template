@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Compositional IT Ltd",
+    "classifications": [
+        "console"
+    ],
+    "name": "CIT Console Application",
+    "tags": {
+        "language": "F#",
+        "type": "project"
+    },
+    "identity": "CIT.Console",
+    "shortName": "cit-console",
+    "sourceName": "CIT.Console"
+}
