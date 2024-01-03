@@ -25,5 +25,5 @@ dotnet new install .\
 
 ## To run
 ```bash
-dotnet new cit-console
+dotnet new cit-app
 ```

@@ -2,16 +2,17 @@
     "$schema": "http://json.schemastore.org/template",
     "author": "Compositional IT Ltd",
     "classifications": [
-        "console"
+        "console",
+        "scaffold"
     ],
-    "name": "CIT Console Application",
+    "name": "CIT Application Scaffold",
     "tags": {
         "language": "F#",
         "type": "project"
     },
-    "identity": "CIT.Console",
-    "shortName": "cit-console",
-    "sourceName": "CIT.Console",
+    "identity": "CIT.App",
+    "shortName": "cit-app",
+    "sourceName": "CIT.App",
     "sources": [
         {
             "modifiers": [

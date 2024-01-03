@@ -3,7 +3,7 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net8.0</TargetFramework>
-        <RootNamespace>CIT.Console</RootNamespace>
+        <RootNamespace>CIT.App</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
