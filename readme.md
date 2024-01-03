@@ -4,10 +4,10 @@ An opinionated F# application template.
 ## Features
 
 ### Configuration
-* `global.json` pinned to .NET 8
+* **global.json** pinned to .NET 8
 * **VS Code** settings to hide inlay hints by default
-* `.gitignore` with common F# settings
-* Standard `src/<app>` folder structure
+* **.gitignore** with common F# settings
+* **src/app** folder structure
 
 ### Pre-installed dotnet tools
 * **Fantomas v6** pre-configured with `.editorconfig`
