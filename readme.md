@@ -2,11 +2,11 @@
 An opinionated F# Console application template.
 
 ## Features
-* Configured Fantomas & .editorconfig
-* Paket
-* global.json to .NET 8
-* VSCode settings
-* .gitignore
+* Fantomas 6 pre-configured with `.editorconfig`
+* Paket 8
+* `global.json` to .NET 8
+* VS Code settings to hide inlay hints by default
+* `.gitignore` with common F# settings
 
 ## To install locally
 ```bash
