@@ -54,3 +54,15 @@ You can then run the application from within the folder as follows
 ```bash
 dotnet run --project src\MyApp
 ```
+
+## I've never used Paket!
+This is an opinioniated template, but of course feel free to remove it or fork this repository.
+
+Adding or removing packages is actually simple:
+
+### Adding a package
+1. Enter the `src\MyApp` directory.
+2. `dotnet paket add <package name>`.
+### Removing a package
+1. Enter the `src\MyApp` directory.
+2. `dotnet paket remove <package name>`.
