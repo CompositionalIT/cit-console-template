@@ -17,10 +17,11 @@ An opinionated F# application template.
 
 ### Console App
 * Comes with a single standard console application
+* Comes with a solution file (seems to help Ionide finding the project for highlighting).
 
 ## To install locally
 ```bash
-dotnet new install .\
+dotnet new install ./
 ```
 
 ## To execute the template
@@ -42,6 +43,7 @@ src
         MyApp.fsproj
         paket.references
         Program.fs
+MyApp.sln
 .editorconfig
 .gitignore
 global.json
@@ -49,10 +51,10 @@ paket.dependencies
 paket.lock
 ```
 
-You can then run the application from within the folder as follows
+You can then run the application from within the folder as follows:
 
 ```bash
-dotnet run --project src\MyApp
+dotnet run --project src/MyApp
 ```
 
 ## I've never used Paket!
@@ -61,8 +63,8 @@ This is an opinioniated template, but of course feel free to remove it or fork t
 Adding or removing packages is actually simple:
 
 ### Adding a package
-1. Enter the `src\MyApp` directory.
+1. Enter the `src/MyApp` directory.
 2. `dotnet paket add <package name>`.
 ### Removing a package
-1. Enter the `src\MyApp` directory.
+1. Enter the `src/MyApp` directory.
 2. `dotnet paket remove <package name>`.
