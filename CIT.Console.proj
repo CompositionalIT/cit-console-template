@@ -7,6 +7,7 @@
         <PackageVersion>0.0.1</PackageVersion>
         <PackageProjectUrl>https://github.com/CompositionalIT/cit-console-template</PackageProjectUrl>
         <License>LICENSE</License>
+        <PackageReadmeFile>readme.md</PackageReadmeFile>
         <PackageIcon>CIT-Circle.png</PackageIcon>
         <RepositoryUrl>https://github.com/CompositionalIT/cit-console-template.git</RepositoryUrl>
         <PackageTags>template;fsharp;console</PackageTags>
@@ -48,6 +49,7 @@ Content/*/*/Client/fable_modules/**/*;
     </PropertyGroup>
     <ItemGroup>
         <None Include="CIT-Circle.png" Pack="true" PackagePath="" />
+        <None Include="README.md" Pack="true" PackagePath="" />
         <Content Include="Content/**/*.*" Exclude="$(ExcludeFromPackage)">
             <PackagePath>Content\</PackagePath>
         </Content>
