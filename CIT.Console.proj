@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Description>An opinionated F# application template</Description>
+        <Authors>Isaac Abraham</Authors>
+        <PackageProjectUrl>https://github.com/CompositionalIT/cit-console-template</PackageProjectUrl>
+        <License>LICENSE</License>
+        <PackageIcon>CIT-Circle.png</PackageIcon>
+        <RepositoryUrl>https://github.com/CompositionalIT/cit-console-template.git</RepositoryUrl>
+        <PackageTags>template;fsharp;console</PackageTags>
+        <NeutralLanguage>en-US</NeutralLanguage>
+        <PackageType>Template</PackageType>
+        <NoBuild>true</NoBuild>
+        <IncludeSource>False</IncludeSource>
+        <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <IsPackable>true</IsPackable>
+        <IsShipping>true</IsShipping>
+        <IsShippingPackage>true</IsShippingPackage>
+        <TargetFramework>net8</TargetFramework>
+        <!-- https://github.com/dotnet/templating/issues/2350#issuecomment-610431461 -->
+        <NoDefaultExcludes>true</NoDefaultExcludes>
+        <SuppressDependenciesWhenPacking>True</SuppressDependenciesWhenPacking>
+    </PropertyGroup>
+    <PropertyGroup>
+        <ExcludeFromPackage>
+Content/*/.fake/**/*;
+Content/*/.ionide/**/*;
+Content/*/.cache/**/*;
+Content/*/.fable/**/*;
+Content/*/node_modules/**/*;
+Content/*/**/obj/**/*;
+Content/*/**/bin/**/*;
+Content/*/**/.fable/**/*;
+Content/*/**/*.fs.js;
+Content/*/**/*.fs.js.map;
+Content/*/deploy/**/*;
+Content/*/tests/**/obj/**/*;
+Content/*/tests/**/bin/**/*;
+Content/*/packages/**/*;
+Content/*/paket-files/**/*;
+Content/*/src/Client/deploy/**/*;
+Content/*/*/Client/output/**/*;
+Content/*/*/Client/fable_modules/**/*;
+        </ExcludeFromPackage>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="CIT-Circle.png" Pack="true" PackagePath="" />
+        <Content Include="Content/**/*.*" Exclude="$(ExcludeFromPackage)">
+            <PackagePath>Content\</PackagePath>
+        </Content>
+    </ItemGroup>
+</Project>
