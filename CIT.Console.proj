@@ -3,6 +3,8 @@
     <PropertyGroup>
         <Description>An opinionated F# application template</Description>
         <Authors>Isaac Abraham</Authors>
+        <PackageId>CIT.Console</PackageId>
+        <PackageVersion>0.0.1</PackageVersion>
         <PackageProjectUrl>https://github.com/CompositionalIT/cit-console-template</PackageProjectUrl>
         <License>LICENSE</License>
         <PackageIcon>CIT-Circle.png</PackageIcon>
