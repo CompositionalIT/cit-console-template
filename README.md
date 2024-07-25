@@ -8,6 +8,7 @@ An opinionated F# application template.
 * **VS Code** settings to hide inlay hints by default
 * **.gitignore** with common F# settings
 * **src/app** folder structure
+* **Directory.Build.props** file to enforce treating warnings as errors
 
 ### Pre-installed dotnet tools
 * **Fantomas v6** pre-configured with `.editorconfig`
@@ -46,6 +47,7 @@ src
 MyApp.sln
 .editorconfig
 .gitignore
+Directory.Build.props
 global.json
 paket.dependencies
 paket.lock

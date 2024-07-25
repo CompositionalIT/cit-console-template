@@ -2,5 +2,6 @@ v.0.0.2
 - Updated dependencies
 - Updated tools
 - Props file to treat warnings as errors
+- Solution file gets unique GUIDs
 v.0.0.1
 - Initial Release
