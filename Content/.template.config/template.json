@@ -5,6 +5,10 @@
         "console",
         "scaffold"
     ],
+    "guids": [
+        "B1476517-77EF-4F08-BDEA-4B9FC5FCDB76",
+        "0C0E8618-BF5D-47B1-A504-78D2B23D06A3"
+    ],
     "name": "CIT Application Scaffold",
     "tags": {
         "language": "F#",
