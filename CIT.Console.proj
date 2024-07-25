@@ -5,7 +5,7 @@
         <Authors>Isaac Abraham</Authors>
         <Copyright>Copyright (c) 2024 Compositional IT</Copyright>
         <PackageId>CompositionalIT.Console</PackageId>
-        <PackageVersion>0.0.1</PackageVersion>
+        <PackageVersion>0.0.2</PackageVersion>
         <PackageReleaseNotes>$([System.IO.File]::ReadAllText("$(MSBuildProjectDirectory)/RELEASE-NOTES.txt"))</PackageReleaseNotes>
         <PackageProjectUrl>https://github.com/CompositionalIT/cit-console-template</PackageProjectUrl>
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
