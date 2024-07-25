@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0C0E8618-BF5D-47B1-A504-78D2B23D06A3}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "appv2test2", "src\appv2test2\appv2test2.fsproj", "{B1476517-77EF-4F08-BDEA-4B9FC5FCDB76}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CIT.App", "src\CIT.App\CIT.App.fsproj", "{B1476517-77EF-4F08-BDEA-4B9FC5FCDB76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
